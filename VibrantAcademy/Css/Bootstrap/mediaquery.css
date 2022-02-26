@@ -1,0 +1,707 @@
+@media(max-width:768px)
+{
+
+   /* css for header  */
+     
+
+      .headingprefix
+      {
+      font-size: 1rem;
+      }
+      .mainHeading
+      {
+      font-size: 2rem;
+      }
+
+
+      .tagLine
+      {
+            font-size: 1rem;
+      }
+
+      .navigation
+       {
+         font-size: 1.5rem;
+         padding-top: 2.5rem;
+         padding-left: 0;
+         margin-right: 2.5rem;
+       }
+      .logoimg img
+      {
+      padding-top: 1rem;
+      width: 105%;
+      }
+
+   
+
+ /* css for description */
+
+      .description
+      {
+          padding-top: 2rem;
+      }
+      .descriptionContent
+       {
+            padding: 2rem 0 0 2rem;
+        }
+        .descriptionHeading 
+        {
+            font-size: 4rem;
+        }
+        .descriptionparagraph
+         {
+            padding-top: 1rem;
+            font-size: 1rem;
+            text-align: justify;
+            padding-right: 5rem;
+         }
+
+         .financialAdvantages
+         {
+            padding: 1rem 5rem 0 1rem;
+            margin-left: -2rem;
+         }
+        
+         .financialAdvantages img
+          {
+           
+            width: 43%;
+            height: 16%;
+            margin-right: 1rem;
+         }
+         .financialAdvantages p, .scholarship p, .academicAdvantages p
+          {
+            font-size: 1.5rem;
+         }
+
+         .scholarship 
+         {
+            margin: 12rem 26rem 0rem -1rem;
+            padding: 1rem 2rem;
+         }        
+
+         .academicAdvantages
+         {
+            margin: 6rem 3rem 2rem 25rem;
+            padding: 1rem 1rem;
+         }
+
+         /* css for courses */
+
+            .courseCardrow
+            {
+                  display: inline-table;
+                  margin-left: 15.5rem;
+            
+            }
+            .coursecarddiv
+            {
+                  margin-bottom: 2rem;
+                  width: 21rem;
+                
+            }
+            .card-title
+            
+            {
+                  font-size: 2rem;
+            }
+            .moreDetails
+             {
+                  padding: 1rem 0 0 5rem;
+            }
+
+
+       /* css for admission form */
+
+       .form 
+       {
+         margin-left: 0;
+       }
+       .registrationForm
+       {
+         margin: 0 2.5rem;
+         padding-top:5rem ;
+       }
+       .admissionForm
+       {
+         font-size: 3rem;
+       }
+       .name, .fname, .course, .dob, .address, .phoneno
+       {
+         font-size: 2rem;
+       }
+       .firstName
+        {
+          margin-left: 10.6rem;
+        }
+       .lastName
+        {
+      
+         margin-left: 16.6rem;
+        }
+       .fatherName
+        {
+         margin-left: 1.8rem;
+        }
+       .fatherLastName
+        {
+         margin-left: 16.7rem;
+         margin-bottom: 3rem;
+         }
+       .dropDown
+        {
+         font-size: 2rem;
+         margin-left: 9.3rem;
+         padding: 0.5rem 5rem 0 0;
+        }
+       
+       .dob1 
+        {
+         margin-left: 12rem;
+        }
+
+
+        .address1 
+        {
+         margin-left: 9.7rem;
+         padding: 0.6rem 0;
+         padding-right: 6.5rem;
+         }
+
+       .phoneno1 
+       {
+         margin-left: 1rem;
+       } 
+
+
+
+       /* css for students feedback   */
+       .title 
+         {
+         font-size: 3rem;
+         }
+            
+       .text
+
+         {     
+             font-size: 1.2rem;
+             padding-top: 0 ;
+         }
+
+
+         /* css for footer  */
+
+         .footer-heading 
+         {
+         font-size: 3rem;
+         }
+         
+         .address,.branches
+         {
+            font-size: 1.5rem;
+
+         }
+         .branches
+         {
+            line-height: 1.7;
+         }
+         .footImg
+         {
+            padding-top: 0.6rem;
+         }
+         .footHeading
+         {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+         }
+        
+         .footTag
+         {
+            font-size: 0.8rem;
+         }
+
+          
+         .footer-about 
+         {
+            padding-left: 2rem;
+
+         }
+         .queries
+          {
+         
+            padding-top: 7rem;
+          }
+          .headingQueries
+          {
+             font-size: 3rem;
+          }
+          .queryinfo 
+          {
+            padding: 1rem 0rem 8rem 0rem;
+            border: none;
+            margin-right: 0;
+            
+          }
+          
+          .querysubmit 
+          {
+             margin-left: 0;
+             font-size: 1.5rem;
+          }
+          .footer
+           {
+           
+            padding: 3rem 0;
+           }
+
+
+}
+
+ 
+@media(max-width:426px)
+{
+
+/*css for header section*/
+   .section-header
+   {
+      height: 26vh;
+      margin: 0;
+      width: 98.3%;
+  
+     
+   }
+
+   .logoimg img 
+   {
+         /* width: 10%;
+         z-index: 3;
+         margin-bottom: -6rem; */
+         display: none;
+   }
+
+   .headingPart
+    {
+      margin-left: 3rem;
+   }
+
+
+ 
+  .navigation 
+  {
+    width: 92%;
+    margin-left: 2rem;
+    margin: 0 rem;
+   padding-top: 0;
+  }
+  .navigation li
+ {
+  margin: 0 0.2rem;
+
+  }
+
+/* css for Description*/
+
+  .section-description
+   {
+   padding-top: 14rem;
+   }
+
+   .descriptionImage img
+    {
+      width: 220%;
+      margin-left: -25rem;
+      }
+    .financialAdvantages,.scholarship,.academicAdvantages
+    {
+       display: none;
+    }
+
+  /* css for courses section */
+
+  .courseCardrow 
+  {
+    margin-left: 9rem;
+  }
+
+
+  /* css for admission section */
+.registrationForm
+{
+  margin: 0 0.5rem;
+  width: 93%;
+}
+  .name, .fname, .course, .dob, .labeladress, .phoneno 
+  {
+     font-size: 1.5rem;
+  }
+  .labeladress
+  {
+     display: flex;
+  }
+  .labeladress label
+{
+   margin: 0;
+}
+  .address1 
+  {
+  margin-left: 6.4rem;
+  padding: 0 1rem 0 0;
+
+  }
+
+  .fatherLastName 
+  {
+  margin-left: 12.7rem;
+  }
+  .lastName 
+  {
+   margin-left: 13rem;
+   }
+
+   .firstName
+    {
+      margin-left: 8.4rem;
+    }
+  .dob1
+   {
+   margin-left: 9rem;
+  }
+  .dropDown
+   {
+  font-size: 1.5rem;
+    margin-left: 7rem;
+    padding: 0.5rem 3.7rem  0 0;
+   
+  }
+  .submitButton 
+  {
+     font-size: 1.5rem;
+   margin-left: 18rem;
+  }
+
+  /*css for Feedback section*/
+ .FEedback,.feedback 
+ {
+   display: grid;
+ }
+
+ .image 
+ {
+    width: 100%;
+ }
+ .text
+ {
+   width: 100%;
+   margin-top: 2rem;
+   font-weight: 600;
+   line-height: 1.5;
+}
+
+/*css for gallery*/
+.galleryImgs 
+{
+   padding-top: 0;
+}
+
+
+/*css for footer*/
+.footer-contact,.footer-about
+ {
+  margin-left: 8rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+@media(max-width:1280px)
+{
+   .section-description
+    {
+      padding-top: 15rem;
+     }
+}
+
+
+
+@media (max-width:412px) 
+{
+   .descriptionImage img 
+   {
+      margin-left: -20rem;
+   }
+    
+    
+}
+
+
+@media(max-width:376px)
+{
+
+
+ /* css for header section */
+   
+
+ .mainHeading
+  {
+   font-size: 1.5rem;
+   }
+   .tagLine
+    {
+      font-size: 0.8rem;
+    }
+    .section-header {
+      height: 20vh;
+    }
+   .navigation
+    {
+      font-size: 1rem;
+    }
+
+    .navigation li
+    {
+       margin: 0 0.5rem;
+    }
+
+      /* Css for Description */
+  
+      .section-description 
+      {
+         padding-top: 8rem;
+      }
+      .descriptionHeading
+       {
+         font-size: 2.5rem;
+       }
+       .descriptionparagraph
+        {
+        
+         font-size: 0.9rem;
+        }
+
+   /* Css for Courses */
+    
+      .secondaryHeading 
+      {
+   
+         font-size: 2rem;
+      }
+      .courseCardrow 
+      {
+         margin-left: 7rem;
+      }
+
+
+      /* Css for admission form */
+      .admissionForm 
+       {
+         font-size: 2rem;
+         margin-top: 0;
+        }
+        
+        .name, .fname, .course, .dob, .labeladress, .phoneno
+         {
+         font-size: 1rem;
+         }
+    
+         .lastName
+          {
+            margin-left: 9.3rem;
+          }
+          .firstName 
+          {
+            margin-left: 6rem;
+          }
+         .fatherLastName
+          {
+            margin-left: 9rem;
+         }
+         .dob1 
+         {
+            margin-left: 6.5rem;
+         }
+         .address1 
+         {
+            margin-left: 4.3rem;
+         }
+         .dropDown
+         {
+            font-size: 1rem;
+            margin-left: 5rem;
+            padding: 0.5rem 3rem 0 0;
+         }
+         .submitButton 
+         {
+            font-size: 1.2rem;
+            margin-left: 10rem;
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+         }
+
+
+         /* Css for Students Feedback */
+
+         .title
+          {
+            font-size: 2.5rem;
+          }
+
+
+          /* Css for Footer section */
+
+          .footer-contact,.footer-about
+          {
+             margin-left: 0;
+          }
+          .footer-contact
+          {
+             padding-top: 0;
+          }
+          .footer-heading 
+          {
+            font-size: 2.5rem;
+          }
+
+          .footer-about
+          {
+          margin-top: 2rem;
+          }
+          .address, .branches
+           {
+            font-size: 1rem;
+            margin-left: 1rem;
+            }
+
+            .socialMediaIcons 
+            {
+               font-size: 2rem;
+            }
+
+            .footHeading
+            {
+               font-size: 1.2rem;
+            }
+            .footer-heading 
+            {
+               font-size: 2rem;
+               margin-left: 1rem;
+             }
+
+             .queries
+              {
+               padding-top: 1rem;
+              }
+             .headingQueries
+              {
+               font-size: 2rem;
+               text-align: center;
+              }
+
+              .queryinfo
+               {
+               padding: 1rem 0rem 5rem 0rem;
+               font-size: 1.5rem;
+               margin-left:11rem;
+              }
+
+              .FootInline
+              {
+                 display: inline-flex;
+              }
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:320px)
+{
+   
+   /* Css for Header */
+
+   .navigation
+   {
+      font-size: 0.8rem;
+   }
+
+   /* Css for Description */
+
+   .descriptionHeading
+    {
+      font-size: 1.5rem;
+    }
+    .descriptionImage img
+     {
+      margin-left: -16rem;
+     }
+
+     /* Css for Courses */
+
+     .courseCardrow 
+     {
+      margin-left: 4rem;
+      }
+      
+      /* Css for students feedback */
+
+      .text
+      {
+         line-height: 1.2;
+      }
+      /* Css for Footer */
+
+      .footer-about 
+      {
+         padding-left: 0;
+      }
+
+      .querysubmit
+       {
+      
+      margin-left: 12rem;
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

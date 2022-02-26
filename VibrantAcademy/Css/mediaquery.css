@@ -1,0 +1,256 @@
+@media(max-width:426px){
+
+/* css for header */
+    
+        .headingprefix{
+        font-size: 1rem;
+        }
+        .mainHeading{
+        font-size: 1.5rem;
+        }
+        .tagLine {
+            font-size: 0.8rem;
+        }
+        .navigation
+            {
+            display: inline-grid;
+            margin-left: 6rem;
+            padding-top: 1rem;
+
+           }
+
+/* css for description */
+           
+            .description {
+                padding-bottom: 27rem;
+            }
+           .description1{
+               display: inline-table;
+           }
+           .descriptionContent {
+                padding: 1rem 0 0 1rem;
+            }
+           .descriptionHeading {
+                font-size: 2rem;
+            }
+
+            .descriptionImage img {
+                width: 57%;
+                height: 5rem;
+            }
+            .financialAdvantages{
+                margin-left: -11rem;
+
+            }
+
+            .scholarship {
+                margin: 18rem 0rem 0 -9rem;
+                padding: 1rem 1rem;
+            }
+
+            .academicAdvantages {
+                margin: 5rem 0 0 13rem;
+            }
+
+/* css for courses */
+
+        .courseCardrow{
+            display: inline-table;
+            margin: -5rem;
+        }
+        .coursecarddiv {    
+            margin-bottom: 2rem;
+        }
+        
+
+/* css for admission form */
+        .admissionForm
+        {
+            margin-left: -9rem;
+
+        }
+        .registrationForm {
+            padding: 5rem 0 0 3rem;
+        }
+        
+    
+/* css for footer */
+
+        .headingPart {
+            padding: 2rem 0;
+        }
+
+        .logoimg img {
+            width: 100%;
+        }
+        .details{
+            width: 100%;
+        }
+        .address {
+            
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .branches{
+        font-size: 1rem;
+        font-weight: 500;
+        }
+
+        .footer-heading {
+            font-size: 3rem;
+        }
+
+}
+
+@media(max-width: 376px){
+/* css for header */
+    .section-header{
+        width: 113%;
+    } 
+/* css for description */
+    .section-description{
+        width: 113%;
+    }
+
+    .financialAdvantages
+    {
+        padding-right: 6rem;
+    }
+
+    .academicAdvantages {
+        margin: 7rem 0 0 12rem;
+    }
+    
+/* css for courses */
+    .section-courses{
+            width: 113%;
+    }
+    .secondaryHeading{
+        padding-bottom: 5rem;
+    }
+
+
+/* css for admissionform */
+    .section-admissionForm{
+        width: 113%;
+    }
+/* css for feedback */
+    .section-studentsfeedback{
+        width: 113%;
+    }
+/* css for gallery */
+    .section-Gallery{
+        width: 113%;
+    }
+/* css for footer */
+    .section-footer{
+        width: 113%;
+    }
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

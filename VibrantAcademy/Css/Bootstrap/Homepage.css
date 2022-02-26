@@ -1,0 +1,513 @@
+/* CSS for Section header */
+
+
+.header
+{
+    margin: 0;
+
+}
+.logoimg img
+{
+    width: 100%;
+    padding: 1rem 0 0 0;
+}
+.headingPart
+{
+padding: 1rem 0;
+}
+.headingprefix
+{
+    color: #ff0000;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.mainHeading
+{
+    color: #ff0000;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.tagLine
+{
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+.headerTagLine
+{
+    color: black;
+    background-color:yellowgreen;
+}
+.navigation
+{
+list-style: none;
+font-size: 2rem;
+font-weight: 600;
+display: flex;
+padding: 4.5rem 0 0 4rem;
+
+}
+.navList1 a
+{
+    background-color: black;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    color: rgb(29, 155, 240);
+    
+}
+.navList1 a:hover
+{
+    background-color: #fff; 
+    color: #ff0000;
+}
+.navList2 a
+{
+    text-decoration: none;
+    padding: 0 1.5rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.navList2 a:hover
+{
+    
+    border-radius: 2rem;
+    color: #ff0000;
+ }
+
+
+/* Css for section .description */
+
+
+ .description
+ {
+  
+     padding-top: 5rem;
+    
+ }
+.descriptionContent
+{
+padding: 6rem 0 0 5rem;
+
+}
+ .descriptionHeading
+ {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+ }
+
+ .descriptionparagraph
+ {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+ }
+ 
+ 
+.descriptionImage 
+{
+    /* padding-right: 5rem;  */
+    position: relative;
+}
+.descriptionImage  img
+{
+    width:100%;
+    margin-left: -6rem;
+}
+.financialAdvantages,.scholarship
+{
+    position: absolute;
+    z-index: 1;
+    border-radius: 3rem;
+    background-color: #fff;
+   
+}
+.financialAdvantages
+{
+
+    display: flex;
+    margin-right: 35rem;
+    padding: 1rem 2rem; 
+}
+.scholarship
+{
+   margin: 24rem 40rem 0 3rem;
+   padding: 2rem 3rem;
+}
+.financialAdvantages img
+{
+    width: 30%;
+    margin-right: 2rem;
+    margin-left: 0rem;
+}
+.scholarship img
+{
+    width: 54%;
+    margin-left: 2rem;
+}
+
+.financialAdvantages p,.scholarship p,.academicAdvantages p
+{
+font-size: 2rem;
+font-weight: 700;
+}
+
+.academicAdvantages
+{
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    margin: 10rem 2rem 0 45rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+}
+.academicAdvantages img
+{
+    width: 58%;
+    margin-left: 3rem;
+
+}
+
+
+
+
+/* Css for section courses */
+
+
+ .courses
+{
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.secondaryHeading
+{
+
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+
+}
+
+.coursecarddiv
+{
+border: none;
+border-radius: 3rem;
+background-color: #ffffff;
+width: 28rem;
+}
+.cardBody
+{
+    padding:1rem 0;
+    overflow: hidden;
+ 
+}
+.logoimgdiv
+{
+   
+    padding-left: 5rem;
+    padding-top: 2.5rem;
+    background-color: #b8c6db;
+   
+}
+.card-title
+{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.moreDetails 
+{
+    padding: 1rem 0 0 8rem;
+}
+.button
+{
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+}
+.dlpImg
+{
+    width: 133%;
+}
+.learnImg
+{
+width: 118%;
+}
+.logoApp
+{
+width: 80%;
+}
+  
+
+/* Css for section admissionForm */
+
+.form
+{
+    padding: 3rem 0;
+    margin-left: 6rem;
+    color: #ffffff;
+}
+
+.formHeading
+{
+padding: 3rem 1rem;
+
+}
+
+.admissionForm
+{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 4rem;
+    color: black;
+   
+}
+
+.registrationForm
+{
+
+    padding: 7rem 4rem;
+    border-radius: 2rem;
+}
+.name, .fname, .course, .dob, .address, .phoneno
+{
+    font-size: 2.3rem;
+}
+.firstName,.lastName{
+    margin-bottom: 3rem;
+    margin-left: 16rem;
+    
+}
+.fatherName, .courseName, .dob1, .address1, .phoneno1{
+    
+    margin-bottom: 3rem;
+}
+.fatherName{
+    margin-left: 6rem;
+}
+.fatherLastName
+{
+    margin-left: 16rem;
+}
+.course
+{
+    display: flex;
+    margin: 0;
+}
+.course label
+{
+    margin: 0;
+}
+.Item
+{
+    font-size: 2rem;
+}
+.dropdown
+{
+    margin: 0;
+}
+.dropDown
+{
+font-size: 2.3rem;
+background-color: #fff;
+color: slategrey;
+margin-left: 14.4rem;
+margin-bottom: 3rem;
+padding-right: 4.7rem;
+}
+
+.courseName{
+    margin-left: 14rem;
+}
+.dob1{
+    margin-left: 17.5rem;
+}
+.address1{
+    margin-left: 13.8rem;
+    padding-right: 3.5rem;
+}
+.phoneno1{
+    margin-left: 5rem;
+}
+.submitButton
+{
+    background-color:rgb(29, 155, 240);
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    padding: 1rem 3rem;
+    margin-left: 23rem;
+
+}
+
+/* Css for section students Feedback */
+
+.feedbackIITians
+{
+    padding-top: 4rem;
+}
+.title{
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+.container{
+    width: 100%;
+}
+.feedback{
+    margin-bottom: 30px;
+    display: flex;
+    background: #fafafa;
+}
+.image img{
+    width: 100%;
+}
+
+.text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 3rem;
+    padding: 1.5rem ;
+    
+}
+ 
+.text p
+{
+
+
+font-family: sans-serif;
+text-align: justify;
+}
+
+
+/* Css for section gallery-item */
+
+.galleryImgs
+{
+padding: 4rem 0;
+}
+
+
+.section-gallery{
+    padding-top: 1.2rem;
+    padding-bottom: 5rem;
+}
+.title{
+    font-size: 4rem;
+}
+.gallery-item{
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-item img
+{
+    width: 100%;
+    overflow: hidden;
+ 
+
+}
+
+.gall2 
+{
+overflow: hidden;
+}
+.gall2 img
+{
+    width: 129%;
+   
+}
+
+
+/* Css for section footer */
+
+.footer{
+    background-color: #121212;
+    padding: 6rem 0;
+}
+.footer-about
+{
+padding-left: 5rem;
+margin-top: 7rem;
+}
+.footerDiv
+{
+    margin-left: 0;
+}
+.socialMediaIcons
+{
+    font-size: 3rem;
+    color:#fff;
+    padding-left: 2rem;
+}
+
+.footer-heading{
+    color: #fff;
+    padding: 0 2rem;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.address, .branches{
+    color: #fff;
+    list-style: none;
+    font-size: 2rem;
+}
+.address
+{
+    text-align: justify;
+}
+.branches
+{
+    line-height:2
+}
+.footHeading
+{
+    font-size: 1.5rem;
+}
+.footLogo
+{
+padding-left: 2rem;
+}
+.footer-contact
+{
+padding-top: 6rem;
+}
+.footrow
+{
+    width:88%;
+}
+.queries
+{
+    color: #fff;
+    padding-top: 11rem;
+}
+.headingQueries
+{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.queryinfo
+{
+    background-color: #fff;
+    color: grey;
+    padding:  1rem 9rem 11rem 2rem;
+    margin-right: 4rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+.querysubmit
+{
+margin-top: 2rem;
+font-size: 2rem;
+border: none;
+border-radius: 1rem;
+margin-left: 26rem;
+}
