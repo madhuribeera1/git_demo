@@ -1,0 +1,476 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #fdf2e9;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.logo{
+    height: 2.2rem;
+}
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+.main-nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+.main-nav-link-cta{
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+    font-size:1.8rem;
+    font-weight: 500;
+}
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 4.8rem 0 9.6rem 0;
+}
+.hero{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+    padding: 0 5.8rem;
+
+}
+
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+    /* color: #555;
+    font-weight: 400; */
+}
+.section-featured {
+    padding: 4.8rem 0 3.2rem 0;
+}
+.heading-featured-in {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #888;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+.section-how {
+    padding: 9.6rem 0;
+}
+
+
+.delivered-meals{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8.8rem;
+    padding: 1.8rem;
+}
+.delivered-images{
+    display: flex;
+}
+.delivered-images img{
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+.delivered-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.delivered-text span{
+    color: #cf711f;
+    font-weight: 700;
+}
+.hero-img{
+    width: 100%;
+}
+
+.section-how div{
+    font-size: 2rem;
+}
+.step-number {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
+/* .heading-tertiary {
+    font-size: 2.4rem;
+} */
+.step-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.step-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.step-img-box img {
+    width: 35%;
+}
+.step-img-box::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+.step-img-box::before, .step-img-box::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    border-radius: 50%;
+}
+.step-img-box::after {
+    width: 50%;
+    padding-bottom: 50%;
+    background-color: #fae5d3;
+    z-index: -1;
+}
+.section-meals{
+    padding: 9.6rem 0;
+}
+.meal {
+    border-radius: 1.1rem;
+    overflow: hidden;
+    box-shadow: 0 3.2rem 6.4rem rgb(0 0 0 / 6%);
+}
+.meal:hover{
+    transform: translateY(-1.2rem);
+    transition: all 0.4s;
+}
+.meal-img {
+    width: 100%;
+}
+
+.meal-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tag {
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10rem;
+}
+
+.tag--vegetarian {
+    background-color: #51cf66;
+}
+.tag--vegan {
+    background-color: #94d82d;
+}
+.tag--paleo {
+    background-color: #ffd43b;
+}
+
+.meal-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem
+}
+
+.meal-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.8rem;
+}
+.meal-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+}
+
+.menu-list-item {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+}
+
+.all-recipes {
+    font-size: 1.8rem;
+}
+.section-testimonials{
+    background-color: #fdf2e9;
+    
+}
+.testimonialGrid{
+    grid-template-columns: 55fr 45fr !important;
+    align-items: center;
+}
+
+.testimonials {
+    padding: 9.6rem;
+}
+.testimonial img{
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.testimonial blockquote{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+}
+.testimonial p{
+    font-size: 1.6rem;
+    color: #6f6f6f;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+.gallery-item {
+    overflow: hidden;
+}
+.gallery-item img{
+    width: 100%;
+    transition: all 0.4s;
+}
+.gallery-item img:hover{
+    transform: scale(1.1);
+}
+.section-pricing{
+    padding: 9.6rem 0;
+}
+.margin-bottom-md{
+    margin-bottom: 4.8rem;
+}
+.pricing-card{
+    width: 75%;
+    border-radius: 1.1rem;
+}
+.pricing-card-starter {
+    justify-self: end;
+    border: 2px solid #fdf2e9;
+    padding: 4.6rem;
+    border-radius: 2%;
+}
+.pricing-card-complete{
+    background-color: #fdf2e9;
+    padding: 4.8rem;
+    position: relative;
+    overflow: hidden;
+}
+.pricing-card-complete::after {
+    content: "Best value";
+    position: absolute;
+    top: 6%;
+    right: -18%;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.8rem 8rem;
+    transform: rotate(45deg);
+}
+.plan-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+.plan-heading {
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+}
+.plan-pricing {
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+.plan-pricing span:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+.plan-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #6f6f6f;
+}
+.plan-sing-up {
+    text-align: center;
+    margin-top: 4.8rem;
+}
+.plan-details-container{
+    margin-bottom: 9.6rem;
+}
+.plan-details {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.feature-icon {
+    color: #e67e22;
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #fdf2e9;
+    margin-bottom: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+.feature-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+.feature-description{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.section-contactUs {
+    padding: 9.6rem 0 ;
+}
+.contact-form-grid {
+    grid-template-columns: 2fr 1fr;
+    background-color: #eb984e;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.cfg-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+
+.cfg-heading {
+    margin-bottom: 3.2rem !important;
+}
+
+.cfg-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.form-grid {
+    display: grid;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+    align-items: end;
+}
+
+.form-grid-field label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+
+.form-grid-field input, .form-grid-field select, .form-grid-field button {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    border-radius: 9px;
+    border: none;
+    background-color: #fdf2e9;
+    font-family: inherit;
+}
+
+.cfg-img-box {
+    background-image: linear-gradient( to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35) ), url('../Media/eating.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+.footer-grid {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.footer-info img {
+    width: 15.6rem;
+    margin-bottom: 2.4rem;
+}
+.social-media-icon-container {
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.social-media-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.copyright{
+    font-size: 1.4rem !important;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+} 
+
+.address, .copyright {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.footer-info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-info ul li {
+    font-size: 1.6rem;
+}
+
+.footer-info-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
